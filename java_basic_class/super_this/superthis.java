@@ -21,8 +21,8 @@ class B extends A{
 }
 class Demo{
     public static void main (String args[]){
-        B b=new B();//out pust will be class B constructor called
-        B a=new B(5);
+        // B b=new B();//out pust will be class B constructor called
+        // B a=new B(5);
         //now class a contructor is called first 
         //the main reason is java consturcor always called super(); inside construcor;
        

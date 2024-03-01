@@ -38,8 +38,8 @@ class  datatype{
           // System.out.println(cha1);
 
           //chdcking boolean data type
-          boolean boo=true;
-          boolean boo1=false;
+        //   boolean boo=true;
+        //   boolean boo1=false;
          // boolean err=0;
           //boolean err1=1;these two lines because boolean only have 2 values that is eidher true or false
         }

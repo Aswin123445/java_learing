@@ -1,9 +1,9 @@
 class condition {
     public static void main (String args[]){
         //if statement
-        if(false){
-            System.out.println("check1");//this will never execute because condition should be true
-        }
+        // if(false){
+        //     System.out.println("check1");//this will never execute because condition should be true
+        // }
          if(true){
             System.out.println("true");//this will eceucuted and output will be true
         }

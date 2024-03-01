@@ -1,4 +1,5 @@
-package java_learing.java_basic_class.access_modi;
+package java_basic_class.access_modi;
+
 
 public class access {//here public key word is used it indicate that the class can be used outside the package
     private String name;//here private keyword is used to decalre the name varible is only accessed inside the class

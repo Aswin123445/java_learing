@@ -15,18 +15,18 @@ class InOut{
 class PyramidPattern{
     public void Pyramid(int length,InOut inout){
         int space=length;
-         for (int outerLoop = 0; outerLoop < length; outerLoop++) {
-        for (int loop=space;loop>=0;loop--) {
+        for (int outerLoop = 0; outerLoop < length; outerLoop++) {
+          for (int loop=space;loop>=0;loop--) {
             inout.OutPUt1(" ");
-        }
-        for (int innerLoop = 0; innerLoop<=outerLoop; innerLoop++) {
+          }
+          for (int innerLoop = 0; innerLoop<=outerLoop; innerLoop++) {
             inout.OutPUt1("*");
             inout.OutPUt1(" ");
+          }
+          // Move to the next line
+          inout.Output("");
+          space--;
         }
-        // Move to the next line
-        inout.Output("");
-        space--;
-    }
     }
 }
 class Pyramid{

@@ -1,3 +1,5 @@
+package pattern_coding.rightangleR;
+
 import java.util.Scanner;
 class InOut{
     public void outPutFirstLine(String data){

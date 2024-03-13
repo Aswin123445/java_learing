@@ -24,6 +24,8 @@ class PatterCode{
     }
 }
 class InOut{
+    Scanner sc=new Scanner(System.in);
+
     public void Output(String data){
          System.out.println(data);
     }
@@ -32,7 +34,6 @@ class InOut{
 
     }
     public int inputInt(){
-        Scanner sc=new Scanner(System.in);
         return sc.nextInt();
     }
 }

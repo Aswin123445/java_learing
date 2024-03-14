@@ -1,4 +1,4 @@
-package java_learing.java_basic_class.method;
+package java_basic_class.method;
 public class riding {
     public static void main(String args[]){
         sub s=new sub();

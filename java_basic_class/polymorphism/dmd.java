@@ -1,4 +1,4 @@
-package java_learing.java_basic_class.polymorphism;
+package java_basic_class.polymorphism;
 
 public class dmd {
     public static void main(String args[]){

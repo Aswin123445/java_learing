@@ -11,10 +11,9 @@ class InOut{
     }
 }
 class NumberLogic{
-    public void logicOfNumber(InOut inputOutput,int rowsOfPattern){
-       
+    public void logicOfNumber(InOut inputOutput,int rowsOfPattern){ 
         for(int numberRow=0;numberRow<rowsOfPattern;numberRow++){
-             int incrementer=rowsOfPattern-1;
+            int incrementer=rowsOfPattern-1;
             int firstNumber=numberRow+1;
             for(int numberColum=0;numberColum<=numberRow;numberColum++){
                 inputOutput.outputSameLine(""+firstNumber+" ");

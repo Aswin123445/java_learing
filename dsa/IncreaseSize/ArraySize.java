@@ -4,8 +4,13 @@ class InputOutput{
        System.out.println(stringData);
     }
     public void outputArray(int []array,InputOutput inputOutput){
+        try{
         for(int index=0;index<array.length;index++){
             inputOutput.outputNextLine(""+array[index]);
+            Thread.sleep(300);
+        }
+        }catch(InterruptedException e){
+            Thread.currentThread().interrupt();
         }
     }
     public int[] inputArray(Scanner sc,int length){
@@ -27,7 +32,7 @@ class InputOutput{
 }
 class ReSizer{
     public int [] reSizerLogic(int []array,int newCapacity){
-        int [] newArray=new int[newCapacity+array.length];
+        int [] newArray=new int[newCapacity];
         for(int index=0;index<array.length;index++){
             newArray[index]=array[index];
         }
@@ -54,7 +59,7 @@ class MainFuntion{
                 int addElementsLength;
                 inputOutput.outputNextLine("enter number of elements want to add");
                 addElementsLength=sc.nextInt();
-                array=reSizer.reSizerLogic(array,addElementsLength);
+                array=reSizer.reSizerLogic(array,addElementsLength+lengthOfArray);
                 inputOutput.outputNextLine("enter new element to the arry");
                 array=inputOutput.additionArray(sc,array.length,array,lengthOfArray);
                 inputOutput.outputNextLine("");

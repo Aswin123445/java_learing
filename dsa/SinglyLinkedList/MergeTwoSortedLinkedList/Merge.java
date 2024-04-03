@@ -57,7 +57,6 @@ class SinglyLinkedList{
         sl.showNode();
         s2.showNode();
         mergeList(sl.header,s2.header);
-        sl.showNode();
-    
+        sl.showNode();//outpust is 10,15,20,25,30,40
     }
 }

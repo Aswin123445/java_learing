@@ -8,6 +8,11 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class CubeOfNumber extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void doGet(HttpServletRequest req,HttpServletResponse res) throws IOException {
 		int ans=Integer.parseInt(req.getParameter("ans"));
 		PrintWriter out=res.getWriter();
